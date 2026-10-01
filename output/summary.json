@@ -1,0 +1,111 @@
+{
+  "total_tickets": 50,
+  "avg_resolution_time_hours": 19.69,
+  "avg_satisfaction": 2.36,
+  "resolution_rate": 0.84,
+  "category": [
+    {
+      "category": "支付问题",
+      "count": 16,
+      "avg_time": 5.25,
+      "avg_sat": 2.25,
+      "resolution_rate": 0.9375
+    },
+    {
+      "category": "退款退货",
+      "count": 13,
+      "avg_time": 45.23076923076923,
+      "avg_sat": 2.0,
+      "resolution_rate": 0.6153846153846154
+    },
+    {
+      "category": "物流查询",
+      "count": 8,
+      "avg_time": 24.5,
+      "avg_sat": 2.125,
+      "resolution_rate": 0.75
+    },
+    {
+      "category": "商品咨询",
+      "count": 5,
+      "avg_time": 0.9,
+      "avg_sat": 4.2,
+      "resolution_rate": 1.0
+    },
+    {
+      "category": "投诉",
+      "count": 4,
+      "avg_time": 23.0,
+      "avg_sat": 1.0,
+      "resolution_rate": 1.0
+    },
+    {
+      "category": "账号问题",
+      "count": 4,
+      "avg_time": 5.0,
+      "avg_sat": 3.5,
+      "resolution_rate": 1.0
+    }
+  ],
+  "priority": [
+    {
+      "priority": "高",
+      "count": 31,
+      "avg_time": 26.774193548387096,
+      "avg_sat": 1.8709677419354838,
+      "resolution_rate": 0.7741935483870968
+    },
+    {
+      "priority": "中",
+      "count": 13,
+      "avg_time": 11.23076923076923,
+      "avg_sat": 2.769230769230769,
+      "resolution_rate": 0.9230769230769231
+    },
+    {
+      "priority": "低",
+      "count": 6,
+      "avg_time": 1.4166666666666667,
+      "avg_sat": 4.0,
+      "resolution_rate": 1.0
+    }
+  ],
+  "channel": [
+    {
+      "channel": "在线",
+      "count": 34,
+      "avg_time": 14.073529411764707,
+      "avg_sat": 2.5588235294117645,
+      "resolution_rate": 0.8823529411764706
+    },
+    {
+      "channel": "电话",
+      "count": 16,
+      "avg_time": 31.625,
+      "avg_sat": 1.9375,
+      "resolution_rate": 0.75
+    }
+  ],
+  "focus_signals": [
+    {
+      "level": "高关注",
+      "title": "支付问题占比较高",
+      "reason": "支付问题 16 条，占比 32.0%，是样本中数量最多的类别。"
+    },
+    {
+      "level": "高关注",
+      "title": "退款退货处理时长明显偏高",
+      "reason": "退款退货平均处理时长 45.23 小时，约为整体平均 19.69 小时的 2.3 倍，同时解决率仅为 61.5%。"
+    },
+    {
+      "level": "高关注",
+      "title": "高优先级工单结果偏弱",
+      "reason": "高优先级工单平均满意度 1.87，解决率 77.4%，两项均低于理想水平。"
+    },
+    {
+      "level": "关注",
+      "title": "观察期后段满意度下降",
+      "reason": "前3天平均满意度 2.83，后3天为 1.99，下降 0.84 分。样本期较短，因此这里只作为趋势信号。"
+    }
+  ]
+}
